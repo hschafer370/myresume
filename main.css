@@ -1,0 +1,50 @@
+/* Two Column Layout */
+body{
+  font-family: Gill Sans MT, sans-serif; 
+}
+.col-right{
+  width: 900px; 
+}
+.col-left{
+  width: 20%; 
+}
+#col {
+  float: left;
+}
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The Left Column */
+#aboutme {
+  padding-top: 5px; 
+  padding-left: 10px; 
+  background-color: #e2d7d5; 
+  font-family: Gill Sans MT, sans-serif; 
+  width: 215px; 
+  height: 225px; 
+}
+
+#personal-details{
+  margin-bottom: 30px; 
+}
+
+/* The Right Column */
+
+#job{
+  font-size: 20px; 
+}
+
+#dates{
+  color: #bdbdbd; 
+}
+
+li{
+  margin-bottom: 10px; 
+}
+p{
+  margin-top: 0px; 
+  margin-bottom: 7px; 
+}
